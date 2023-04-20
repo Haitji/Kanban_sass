@@ -1,0 +1,25 @@
+$imagen: 'https://cdn.pixabay.com/photo/2012/10/30/15/55/valley-63564_1280.jpg';
+html {
+    margin: 0;
+    padding-top: 0;
+    height: 100% + 12%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 110%; 
+}
+
+main {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url($imagen);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+
+    
+}
